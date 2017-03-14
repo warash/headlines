@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Info Piguła</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding >
+  <ion-slides pager direction="vertical" slidesPerView="2">
+
+    <ion-slide *ngFor="let headline of headlines">
+      <div class="slide">
+        <div class="text">{{headline.headline}}</div>
+
+        <img class="teaser" [attr.src]="headline.imgUrl" alt="">
+
+      </div>
+
+    </ion-slide>
+
+  </ion-slides>
+</ion-content>
