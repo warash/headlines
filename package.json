@@ -7,8 +7,7 @@
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
     "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve",
-    "start": "http-server www"
+    "ionic:serve": "ionic-app-scripts serve"
   },
   "dependencies": {
     "@angular/common": "2.4.8",
@@ -30,6 +29,7 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "1.1.4",
+    "harp": "^0.23.0",
     "http-server": "^0.9.0",
     "typescript": "^2.2.1"
   },
