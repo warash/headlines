@@ -1,1 +1,1 @@
-  web: http-server www -p $PORT
+  web: http-server www -p 80
